@@ -1,0 +1,9 @@
+{% set trigger_content %}{% block content %}{% endblock %}{% endset %}
+<button
+    type="button"
+    data-controller="drawer-trigger"
+    {% if for %}data-drawer-trigger-drawer-outlet="#{{ for }}"{% endif %}
+    data-action="click->drawer-trigger#open"
+    class="{{ class }}"
+    {{ attributes }}
+>{{ trigger_content|raw }}</button>

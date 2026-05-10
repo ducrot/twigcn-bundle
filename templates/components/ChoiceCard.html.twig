@@ -1,0 +1,14 @@
+<label class="{{ this.cardClasses }}" {{ attributes }}>
+    <section class="flex-1">
+        {% block content %}{% endblock %}
+    </section>
+    <input
+        type="{{ type }}"
+        class="self-start"
+        {% if name %}name="{{ name }}"{% endif %}
+        {% if id %}id="{{ id }}"{% endif %}
+        {% if value %}value="{{ value }}"{% endif %}
+        {% if checked %}checked{% endif %}
+        {% if disabled %}disabled{% endif %}
+    >
+</label>

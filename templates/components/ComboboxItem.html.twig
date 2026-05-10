@@ -1,0 +1,13 @@
+<div
+    role="menuitem"
+    data-command-target="item"
+    data-value="{{ value }}"
+    data-action="click->combobox#select"
+    data-combobox-value-param="{{ value }}"
+    data-combobox-label-param="{{ label }}"
+    class="combobox-item {{ class }}"
+    {{ attributes }}
+>
+    {{ label }}
+    <twig:ux:icon name="lucide:check" class="w-4 h-4 ml-auto {{ selected ? 'opacity-100' : 'opacity-0' }}" />
+</div>
