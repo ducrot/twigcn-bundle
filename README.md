@@ -1,12 +1,23 @@
 # TwigcnBundle
 
+[![CI](https://img.shields.io/github/actions/workflow/status/ducrot/twigcn/tests.yml?branch=main&label=CI&logo=github)](https://github.com/ducrot/twigcn/actions/workflows/tests.yml)
+[![Packagist](https://img.shields.io/packagist/v/ducrot/twigcn-bundle.svg?label=packagist)](https://packagist.org/packages/ducrot/twigcn-bundle)
+[![PHP](https://img.shields.io/packagist/php-v/ducrot/twigcn-bundle.svg)](composer.json)
+[![License](https://img.shields.io/packagist/l/ducrot/twigcn-bundle.svg)](LICENSE)
+
+> **Read-only mirror.** This repository is a subtree split of
+> [`ducrot/twigcn`](https://github.com/ducrot/twigcn) and exists so
+> Composer/Packagist can ship the bundle. Issues and pull requests are
+> intentionally disabled here — please open them in the
+> [main repository](https://github.com/ducrot/twigcn/issues).
+
 Beautiful, accessible UI components for Symfony & Twig. Inspired by shadcn/ui, built for Symfony.
 
 ## Requirements
 
 - PHP 8.2+
 - Symfony 7.0+
-- Node.js 20+ (for asset compilation)
+- Node.js 22+ (for asset compilation)
 - Tailwind CSS 4.0+
 
 ## Installation
@@ -279,6 +290,13 @@ Or manually:
 ```javascript
 document.documentElement.classList.toggle('dark');
 ```
+
+## Contributing & Issues
+
+Development happens in [`ducrot/twigcn`](https://github.com/ducrot/twigcn).
+Open issues at <https://github.com/ducrot/twigcn/issues> and pull requests
+against the same repo. Release notes are tracked in the monorepo's
+[CHANGELOG](https://github.com/ducrot/twigcn/blob/main/CHANGELOG.md).
 
 ## License
 
